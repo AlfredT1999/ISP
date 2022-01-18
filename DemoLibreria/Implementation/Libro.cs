@@ -2,7 +2,7 @@
 
 namespace DemoLibreria
 {
-    public class Libro : IArticulosLibreria
+    public class Libro : IPrestacionLibro
     {
         public string LibreriaId { get; set; }
         public string Titulo { get; set; }

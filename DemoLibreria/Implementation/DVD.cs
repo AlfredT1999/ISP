@@ -1,30 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DemoLibreria
 {
-    public class LibroReferencia : IArticulosLibreria
+    public class DVD : IPrestacionDVD
     {
         public string LibreriaId { get; set; }
         public string Titulo { get; set; }
-        public string Autor { get; set; }
         public DateTime FechaDePrestacion { get; set; }
         public string NombreUsuarioAparta { get; set; }
         public int FechaDeDevolucion { get; set; } = 14;
-        public int Paginas { get; set; }
+        public List<string> Actores { get; set; }
+        public int DuracionEnMinutos { get; set; }
 
         public void Registro()
         {
-            throw new NotImplementedException();
+            NombreUsuarioAparta = "";
         }
 
         public void Verificar(string nombreUsuarioAparta)
         {
-            throw new NotImplementedException();
+            NombreUsuarioAparta = nombreUsuarioAparta;
+            FechaDePrestacion = DateTime.Now;
         }
 
         public DateTime FechaDeVencimiento()
         {
-            throw new NotImplementedException();
+            return FechaDePrestacion.AddDays(FechaDeDevolucion);
         }
     }
 }

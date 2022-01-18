@@ -2,7 +2,7 @@
 
 namespace DemoLibreria
 {
-    public class AudioLibro : IArticulosLibreria
+    public class AudioLibro : IPrestacionAudioLibro
     {
         public string LibreriaId { get; set; }
         public string Titulo { get; set; }
@@ -10,7 +10,6 @@ namespace DemoLibreria
         public DateTime FechaDePrestacion { get; set; }
         public string NombreUsuarioAparta { get; set; }
         public int FechaDeDevolucion { get; set; } = 14;
-        public int Paginas { get; set; } = -1;
         public int DuracionEnMinutos { get; set; }
 
         public void Registro()
