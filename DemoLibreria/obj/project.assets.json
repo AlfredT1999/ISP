@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ConsoleUI\\DemoLibreria\\DemoLibreria.csproj",
+      "projectUniqueName": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ISP\\ConsoleUI\\DemoLibreria\\DemoLibreria.csproj",
       "projectName": "DemoLibreria",
-      "projectPath": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ConsoleUI\\DemoLibreria\\DemoLibreria.csproj",
+      "projectPath": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ISP\\ConsoleUI\\DemoLibreria\\DemoLibreria.csproj",
       "packagesPath": "C:\\Users\\e-jatapia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ConsoleUI\\DemoLibreria\\obj\\",
+      "outputPath": "C:\\Users\\e-jatapia\\source\\repos\\Presentation\\ISP\\ConsoleUI\\DemoLibreria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
